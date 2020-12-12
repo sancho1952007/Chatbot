@@ -14,9 +14,9 @@ pause
 goto s
 
 :hi
-set/p name=
+set/p name=Enter your name:
 pause
-echo Wow! What a nice name!
+echo Wow %name%, What a nice name!
 pause
 goto s
 
